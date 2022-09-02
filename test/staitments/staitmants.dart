@@ -1,4 +1,4 @@
-import 'package:dart_basics/staitments/staitments.dart' as staitments;
+import 'package:dart_basics/tasks/staitments/staitments.dart' as staitments;
 import 'package:test/expect.dart';
 import 'package:test/scaffolding.dart';
 

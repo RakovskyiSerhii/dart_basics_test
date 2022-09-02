@@ -1,4 +1,4 @@
-import 'package:dart_basics/calculator/calculator.dart';
+import 'package:dart_basics/tasks/calculator/calculator.dart';
 import 'package:test/expect.dart';
 import 'package:test/scaffolding.dart';
 

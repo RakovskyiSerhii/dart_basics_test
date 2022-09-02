@@ -1,4 +1,5 @@
-import 'package:dart_basics/patterns/singleton/singleton.dart';
+
+import 'package:dart_basics/examples/patterns/singleton/singleton.dart';
 
 void main() {
   final Singleton singleton = Singleton();

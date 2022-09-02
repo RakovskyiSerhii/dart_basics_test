@@ -1,6 +1,6 @@
 import 'package:test/expect.dart';
 import 'package:test/scaffolding.dart';
-import 'package:dart_basics/collections/char_counter.dart' as counter;
+import 'package:dart_basics/tasks/collections/char_counter.dart' as counter;
 
 void main() {
   group('Test char_counter', () {
