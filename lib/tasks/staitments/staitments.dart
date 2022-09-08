@@ -1,9 +1,12 @@
+import 'dart:math';
+
 final bool first = true;
 final bool second = false;
 final bool third = true;
+
 void main(List<String> args) {
   //TODO: optimize staitments
-  
+  // checkStaitments('','');
 }
 
 bool isThirdAndFirstTrue() {
@@ -60,4 +63,25 @@ bool isEveryFalse() {
   } else {
     return false;
   }
+}
+
+bool checkStaitments(String email, String password, bool registered) {
+  return registered || (emailCheck(email) && checkPassword(password));
+}
+
+
+bool emailCheck(String email) {
+  // throw 'Not implemented';
+  /// validation
+  /// - has symbol @
+  /// - length > 5
+  /// - not included symbol -
+  return email.length > 5 && email.contains('@') && !email.contains('-');
+}
+
+bool checkPassword(String password) {
+  // throw 'Not implemented';
+  /// validation
+  /// - length > 8
+  return password.length > 8;
 }
